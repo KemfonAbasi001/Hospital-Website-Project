@@ -1,16 +1,16 @@
 import { useEffect, useRef } from 'react'
-import bg_image from '../assets/hero-bg.png'
-import bg_image_two from '../assets/hero-bg-02.png'
+import bg_image from '../assets/hero-bg.webp'
+import bg_image_two from '../assets/hero-bg-02.webp'
 
-import one from '../assets/img-01.png'
-import two from '../assets/img-02.png'
+import one from '../assets/img-01.webp'
+import two from '../assets/img-02.webp'
 
-import seven from '../assets/photo-01.png'
-import eight from '../assets/photo-02.png'
-import three from '../assets/photo-03.png'
-import four from '../assets/photo-04.png'
-import five from '../assets/photo-05.png'
-import six from '../assets/photo-06.png'
+import seven from '../assets/photo-01.webp'
+import eight from '../assets/photo-02.webp'
+import three from '../assets/photo-03.webp'
+import four from '../assets/photo-04.webp'
+import five from '../assets/photo-05.webp'
+import six from '../assets/photo-06.webp'
 import FooterSection from '../components/Footer'
 import CTASection from '../components/CTA'
 
@@ -49,6 +49,7 @@ function Card({ imgSrc, title, details }) {
       <img
         src={imgSrc}
         alt={title}
+        loading="lazy"
         className="h-full w-full block object-cover transition-transform duration-500 ease-in-out group-hover:scale-105"
       />
       <div className="absolute inset-0 bg-linear-to-b from-transparent to-black/50" />
@@ -229,6 +230,7 @@ function HomeSection() {
               className="w-full relative rounded-2xl overflow-hidden h-64 sm:h-72 md:h-80 lg:h-96"
             >
               <img
+              loading="lazy"
                 src={one}
                 alt="Compassionate patient care"
                 className="h-full w-full block object-cover"
@@ -248,6 +250,7 @@ function HomeSection() {
             >
               <img
                 src={two}
+                loading="lazy"
                 alt="Healing and innovation"
                 className="h-full w-full block object-cover"
               />
