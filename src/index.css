@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-playfair: 'Playfair', serif;
+}
+
+
+
+body {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Inter", sans-serif; */
+}
+
+a{
+    text-decoration: none;
+    /* color: #1e293e; */
+}
