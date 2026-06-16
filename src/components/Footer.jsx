@@ -102,7 +102,7 @@
 
 function FooterSection() {
   const linkClass =
-    'text-sm font-normal leading-5 tracking-wide text-white/50 hover:text-[#DDA23C] transition-colors duration-300 ease-in-out'
+    'text-[16px] lg:text-sm font-normal leading-5 tracking-wide text-white/50 hover:text-[#DDA23C] transition-colors duration-300 ease-in-out'
 
   return (
     <footer className="w-full py-12 lg:py-16 bg-[#1e293e] flex justify-center items-center">
@@ -114,19 +114,19 @@ function FooterSection() {
           {/* Brand */}
           <div data-reveal className="flex flex-col gap-4 lg:col-span-1">
             <a href="/">
-              <h2 className="text-3xl leading-9 font-light text-white font-playfair">
+              <h2 className="text-[25px] lg:text-3xl leading-9 font-light text-white font-playfair">
                 Medical Center
               </h2>
             </a>
-            <p className="text-sm font-normal leading-6 text-white/50 max-w-xs">
+            <p className="text-[16px] lg:text-sm font-normal leading-6 text-white/50 max-w-xs">
               Providing world-class healthcare with compassion, innovation, and
               excellence for over 25 years.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div data-reveal data-delay="80" className="flex flex-col gap-3">
-            <h4 className="text-base leading-5 tracking-wide text-[#DDDCD6] font-semibold mb-1">
+          <div data-reveal data-delay="80" className="flex flex-col gap-4">
+            <h4 className="text-[18px] lg:text-base leading-5 tracking-wide text-[#DDDCD6] font-semibold mb-1">
               Quick Links
             </h4>
             <a href="/"          className={linkClass}>About Us</a>
@@ -137,8 +137,8 @@ function FooterSection() {
           </div>
 
           {/* Departments */}
-          <div data-reveal data-delay="160" className="flex flex-col gap-3">
-            <h4 className="text-base leading-5 tracking-wide text-[#DDDCD6] font-semibold mb-1">
+          <div data-reveal data-delay="160" className="flex flex-col gap-4">
+            <h4 className="text-[18px] lg:text-base leading-5 tracking-wide text-[#DDDCD6] font-semibold mb-1">
               Departments
             </h4>
             <a href="/services" className={linkClass}>Cardiology</a>
@@ -150,8 +150,8 @@ function FooterSection() {
           </div>
 
           {/* Patient Resources */}
-          <div data-reveal data-delay="240" className="flex flex-col gap-3">
-            <h4 className="text-base leading-5 tracking-wide text-[#DDDCD6] font-semibold mb-1">
+          <div data-reveal data-delay="240" className="flex flex-col gap-4">
+            <h4 className="text-[18px] lg:text-base leading-5 tracking-wide text-[#DDDCD6] font-semibold mb-1">
               Patient Resources
             </h4>
             <a href="/emergency" className={linkClass}>Book Appointment</a>

@@ -128,7 +128,7 @@ function NavBar() {
 
           {/* Logo */}
           <a href="/">
-            <h1 className={`text-[25px] leading-7 tracking-[.5px] font-playfair font-medium transition-colors duration-300
+            <h1 className={`text-[22px] lg:text-[25px] leading-7 tracking-[.5px] font-playfair font-medium transition-colors duration-300
               ${isScrolled || menuOpen ? 'text-[#151C28]' : 'text-[#FFFFFF]'}`}>
               Medical Center
             </h1>

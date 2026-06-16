@@ -118,7 +118,7 @@ function HomeSection() {
           <p
             data-reveal
             data-delay="0"
-            className="text-xs md:text-xs lg:text-xs leading-4 tracking-[4.8px] font-medium text-[#DDA23C] uppercase"
+            className="text-[10px] md:text-xs lg:text-xs leading-4 tracking-[4.8px] font-medium text-[#DDA23C] uppercase"
           >
             World-Class Private Healthcare
           </p>
@@ -126,7 +126,7 @@ function HomeSection() {
           <h1
             data-reveal
             data-delay="80"
-            className="text-5xl leading-12 sm:text-6xl sm:leading-15 lg:text-7xl lg:leading-18 font-semibold text-white font-playfair"
+            className="text-5xl leading-13 sm:text-6xl sm:leading-15 lg:text-7xl lg:leading-18 font-semibold text-white font-playfair"
           >
             Where Healing{' '}
             <span className="italic text-[#DDA23C]"><br className='block'/>Becomes</span> an Art
@@ -137,8 +137,8 @@ function HomeSection() {
             data-delay="160"
             className="text-lg lg:text-lg leading-7 font-normal text-white/90"
           >
-            Experience medicine reimagined — where cutting-edge technology,<br className='hidden md:block'/>
-            world-renowned physicians, and unparalleled comfort converge to<br className='hidden md:block'/>
+            Experience medicine reimagined — where cutting-edge technology, <br className='hidden md:block'/>
+            world-renowned physicians, and unparalleled comfort converge to <br className='hidden md:block'/>
             create a sanctuary of healing.
           </p>
 
