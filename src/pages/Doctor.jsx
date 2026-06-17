@@ -191,7 +191,7 @@ function DoctorSection() {
           DOCTORS GRID SECTION
       ════════════════════════════════════════ */}
       <section className="w-full py-16 lg:py-30 flex justify-center">
-        <div className="w-[93%] max-w-7xl flex flex-col gap-10 lg:gap-15">
+        <div className="w-[93%] max-w-330 flex flex-col gap-10 lg:gap-15">
 
           {/* Section Header */}
           <div className="text-center flex flex-col gap-2 lg:gap-3">

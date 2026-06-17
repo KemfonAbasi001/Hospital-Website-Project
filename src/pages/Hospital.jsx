@@ -102,7 +102,7 @@ function HospitalSection() {
 
       {/* TOUR SECTIONS */}
       <section className='w-full py-16 lg:py-30 flex justify-center'>
-        <div className="w-[93%] flex flex-col gap-12 md:gap-16 lg:gap-20">
+        <div className="w-[93%] max-w-330 flex flex-col gap-12 md:gap-16 lg:gap-20">
 
           {/* Row 1 — Image Left, Text Right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-15 items-center">

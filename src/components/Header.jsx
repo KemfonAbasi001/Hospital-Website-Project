@@ -124,7 +124,7 @@ function NavBar() {
         className={`w-full flex justify-center items-center fixed top-0 z-[3000] transition-all duration-300
           ${isScrolled || menuOpen ? 'bg-[#FFFFFF] shadow-md' : 'bg-transparent'}`}
       >
-        <nav className="mx-auto my-0 w-[93%] py-4.5 lg:py-3.5 flex flex-row justify-between items-center">
+        <nav className="mx-auto max-w-330 my-0 w-[93%] py-4.5 lg:py-3.5 flex flex-row justify-between items-center">
 
           {/* Logo */}
           <a href="/">

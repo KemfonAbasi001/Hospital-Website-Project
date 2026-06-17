@@ -106,7 +106,7 @@ function FooterSection() {
 
   return (
     <footer className="w-full py-12 lg:py-16 bg-[#1e293e] flex justify-center items-center">
-      <div className="w-[93%] max-w-7xl flex flex-col gap-10 lg:gap-12">
+      <div className="w-[93%] max-w-330 flex flex-col gap-10 lg:gap-12">
 
         {/* Footer Links Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">

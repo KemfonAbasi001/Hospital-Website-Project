@@ -114,7 +114,7 @@ function HomeSection() {
         }}
         className="w-full min-h-[90vh] flex items-center py-24 pt-36 lg:py-36 lg:pt-40 px-5 md:px-8 lg:px-12 bg-cover bg-center bg-no-repeat"
       >
-        <div className="flex flex-col gap-4 lg:gap-5 w-full max-w-3xl">
+        <div className="flex flex-col gap-4 lg:gap-5 w-full">
           <p
             data-reveal
             data-delay="0"
@@ -191,7 +191,7 @@ function HomeSection() {
 
 
       <section className="w-full py-16 lg:py-28 flex justify-center items-center">
-        <div className="w-[93%] max-w-7xl flex flex-col gap-10 lg:gap-14">
+        <div className="w-[93%] max-w-330 flex flex-col gap-10 lg:gap-14">
 
 
           <div className="flex flex-col gap-3 lg:gap-4 w-full">
@@ -324,7 +324,7 @@ function HomeSection() {
 
   
       <section className="w-full pt-0 pb-16 lg:pb-24 flex justify-center">
-        <div className="w-[93%] max-w-7xl flex flex-col gap-10 lg:gap-14">
+        <div className="w-[93%] max-w-330 flex flex-col gap-10 lg:gap-14">
 
           {/* Header */}
           <div className="text-center flex flex-col gap-2 lg:gap-3">

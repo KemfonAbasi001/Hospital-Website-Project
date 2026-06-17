@@ -110,7 +110,7 @@ function EmergencySection() {
           HELP OPTIONS SECTION
       ════════════════════════════════════════ */}
       <section className="w-full py-16 lg:py-30 flex justify-center items-center">
-        <div className="w-[93%] flex gap-8 lg:gap-10 flex-col">
+        <div className="w-[93%] max-w-330 flex gap-8 lg:gap-10 flex-col">
 
           {/* Section Header */}
           <div className="flex flex-col gap-3 lg:gap-5 text-center w-full">
